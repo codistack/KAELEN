@@ -1,0 +1,6 @@
+{
+  "name": "Aethelgard: Fate of the Ancients",
+  "description": "Un videojuego de fantasía épica AAA (MOBA + Action RPG) desarrollado en estilo Unreal Engine 5 con gráficos hiperrealistas, 10 clases legendarias, sistema de combate profundo, mapas dinámicos y cinematicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

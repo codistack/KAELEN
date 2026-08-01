@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --bg-deep: #050505;
+  --border-gold: #c5a059;
+  --gold-glow: rgba(197, 160, 89, 0.3);
+  --mythic-red: #ff3e3e;
+  --mythic-glow: rgba(255, 62, 62, 0.4);
+}
+
+body {
+  background-color: #050505;
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-serif, h1, h2, h3, .cinzel {
+  font-family: 'Cinzel', serif !important;
+}
+
+.font-mono, code, pre, .mono {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+.gold-border {
+  border-color: #c5a059;
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px rgba(197, 160, 89, 0.25);
+}
+
+.gold-glow-inset {
+  box-shadow: inset 0 0 15px rgba(197, 160, 89, 0.3);
+}
+
+.mythic-glow {
+  box-shadow: inset 0 0 15px rgba(255, 62, 62, 0.4);
+}
+
+.hero-mask {
+  background: radial-gradient(circle at 50% 40%, rgba(197, 160, 89, 0.15) 0%, transparent 70%);
+}
